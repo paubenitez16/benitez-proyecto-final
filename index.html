@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>PB</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <a class="navbar-brand" href="#"><img width="100px" src="./Images/p.png" alt="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./Pages/sobre-mi.html">Sobre mi</a></li>
+          <li><a href="./Pages/portfolio.html">Portfolio</li>
+          <li><a href="./Pages/proyecto-dm.html">Proyecto DM</a></li>
+          <li><a href="./Pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+
+    <section id="bienvenida" data-aos="fade-up">
+      <br> <br>
+      <h1> ¡Hola! <br> <span class="color-acento">Soy Paula. </span></h1>
+      <p>Bienvenidxs a mi página web y portfolio.</p>
+      <br> <br>
+    </section>
+
+
+    <section id="sobre-mi">
+
+      <div class="container">
+        <div class="img-container" data-aos="zoom-in-left">
+          <h2> Sobre <span class="color-acento"> Mi</span></h2>
+
+          <div class="carousel1">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/sobremi1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/sobremi2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/sobremi3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+
+
+    <section id="mi-portfolio">
+      <div class="container">
+        <h2>Mi <span class="color-acento">Portfolio</span></h2>
+        <div class="servicios" data-aos="flip-left">
+          <div class="row mt-4 mb-3 justify-content-around">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/portfolio1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Diseño de Copies</h5>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/portfolio2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Publicidad Digital</h5>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/portfolio1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plan de Marketing</h5>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="proyecto-dm">
+      <div class="container" <div class="img-container"> </div>
+      <h2>Proyecto <span class="color-acento">Digital Mind</span></h2>
+    </section>
+
+      <div class="carousel2">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./images/proyecto1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/proyecto2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/proyecto3.png" alt="Third slide">
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <section id="contacto">
+    <div class="container">
+      <div class="img-container"> </div>
+      <h2>Contacto</h2>
+      <aside class="contenido-lateral"></aside>
+
+      <form>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ingrese su Nombre y Apellido</label>
+          <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ingrese su email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="exampleInputAsunto">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Escriba aquí su consulta</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+</main>
+</div>
+</section>
+  </main>
+
+  <footer class="pie-de-página">
+    <div class="container">
+      <p> &copy;Paula Benítez 2022</p>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

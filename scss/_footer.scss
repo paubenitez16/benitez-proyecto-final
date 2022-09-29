@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    padding-bottom: 5%;
+    background-image: url(../Images/fondoweb.png);
+    font-style: italic;
+    color: #E5E4E9; 
+}
+footer p {
+        margin: 0%;
+        color: black;
+        padding: 12px; }
+      
+footer.container {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }

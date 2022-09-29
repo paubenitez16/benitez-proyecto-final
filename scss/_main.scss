@@ -1,0 +1,83 @@
+main{ 
+    section{
+        h1{  font-size: 5.5em;
+            color: #365959;
+            p{  font-size: 1.25em;
+                color: #1a2d2d;
+                text-align: center;
+            }
+        }
+    }
+}
+
+#bienvenida{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #F2F2F2;
+}
+
+#bienvenida h1 {
+    color: pink; 
+}
+
+#sobre-mi{
+    background-color: #C5D9D5;
+    display: block; 
+}
+#sobre-mi.container {
+    text-align: center;
+    padding: 200-x 12px;
+    flex-direction: row; 
+}
+
+#mi-portfolio{
+    background-color: #F2F2F2;
+    color: #E5E4E9;
+    display: block;
+}
+
+#mi-portfolio.container {
+    padding: 150px 12px; }
+
+#mi-portfolio h2 {
+        margin-top: 0;
+        font-size: 3.2em; }
+      
+#mi-portfolio p {
+        display: none; }
+      
+#mi-porfolio .carta {
+        background-position: center center;
+        background-size: cover;
+        padding: 50px;
+        margin: 20px;
+        border-radius: 15px;
+        background-repeat: 100% 150px; 
+}
+
+
+#proyecto-dm.container {
+            text-align: center;
+            padding: 200px 12px;
+            background-color: #C5D9D5;
+            display: block; 
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #365959;
+    height: 80vh;
+    display: block; 
+}

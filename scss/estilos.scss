@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: 100%;
+    list-style: none;
+}
+
+@media (max-width: 576px) {
+    header{
+        position: relative;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width:720px) {
+    header{
+        position: relative;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 768px) {  
+    header{
+    position: relative;
+    width: 100%;
+    }
+    header.container{
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+    } 
+} 
+
+@media (min-width: 992px) {
+    header{
+    position: relative;
+    width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    header{
+    position: relative;
+    width: 100%;
+    }
+} 
+
+@media (min-width: 1400px) {
+    header{
+    position: relative;
+    width: 100%;
+    }
+}
+
+@import "_header";
+@import "_footer";
+@import "_main";
+
+h1 {
+    font-size: 5.5em;
+    color: #365959;
+}
+
+h2 {
+    font-size: 2.7em;
+    color: #5D8C8C;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2em;
+    color: #5D8C8C;
+}
+
+p {
+    font-size: 1.25em;
+    color: #1a2d2d;
+    text-align: center;
+}
+
+p.logo {background-image: url(/Images/p.png);}
+
+html{scroll-behavior: smooth;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: #8ABFB0;
+}
+
+.carousel1{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel2{
+    width: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+h5{
+    color: #1a2d2d;
+}
